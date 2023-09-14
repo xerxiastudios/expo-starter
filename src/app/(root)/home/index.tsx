@@ -10,7 +10,12 @@ async function signUpWithEmail() {
 export default function Home() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text onPress={signUpWithEmail}>Sign Out</Text>
+      <Text
+        className="text-gray-950 font-bold text-xl"
+        onPress={signUpWithEmail}
+      >
+        Sign Out
+      </Text>
     </View>
   );
 }
