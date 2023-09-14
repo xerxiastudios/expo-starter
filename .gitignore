@@ -9,7 +9,15 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+
+# local env files
 .env
+.env.local
+.env.local*
+.env.development.local
+.env.test.local
+.env.production.local
+
 
 # macOS
 .DS_Store
