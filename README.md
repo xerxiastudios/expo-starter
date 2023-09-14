@@ -4,6 +4,5 @@
 
 - Typescript
 - Nativewind
-- Reanimated v3
-- Gesture Handler v2
 - Expo Router
+- Supabase
